@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.login-container input {
+    border: none;
+    font-family: inherit;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    font-size: 1.3rem;
+    color: black;
+    padding: 7px 0;
+    transition: border-color 0.2s;
+}
+
+.login-container input::placeholder{
+    font-size: 1rem;
+}
+
+.login-container img {
+    width: 150px;
+}
+
+
